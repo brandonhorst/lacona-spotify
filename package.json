@@ -1,0 +1,42 @@
+{
+  "name": "lacona-spotify",
+  "version": "1.0.0",
+  "description": "Play music using Spotify",
+  "main": "build/extensions.js",
+  "lacona": {
+    "title": "Spotify",
+    "description": "Play music using Spotify",
+    "extensions": "build/extensions.js",
+    "config": "config.json"
+  },
+  "scripts": {
+    "build": "mkdir -p build; browserify src/extensions.jsx -t babelify -o build/extensions.js -x lacona-phrases -x elliptical -x lacona-api --standalone extensions --extension=jsx",
+    "clean": "rimraf build",
+    "prepublish": "npm run clean && npm run build"
+  },
+  "keywords": [
+    "lacona",
+    "lacona-addon"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brandonhorst/lacona-spotify.git"
+  },
+  "author": "@brandonhorst",
+  "devDependencies": {
+    "babel-plugin-transform-react-jsx": "^6.8.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.0.1",
+    "rimraf": "^2.5.2"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ],
+    "plugins": [
+      "transform-react-jsx"
+    ]
+  }
+}

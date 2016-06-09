@@ -1,0 +1,13 @@
+{
+  "spotify": {
+    "title": "Spotify",
+    "type": "object",
+    "properties": {
+      "message": {
+        "title": "Alert message",
+        "type": "string",
+        "default": "Hello, world!"
+      }
+    }
+  }
+}
