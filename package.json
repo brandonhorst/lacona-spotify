@@ -1,6 +1,6 @@
 {
   "name": "lacona-spotify",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Play music using Spotify",
   "main": "build/extensions.js",
   "lacona": {
