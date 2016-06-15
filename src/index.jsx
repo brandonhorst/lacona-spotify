@@ -20,4 +20,4 @@ export const MyNewCommand = {
   }
 }
 
-export default [MyNewCommand]
+export const extensions = [MyNewCommand]
