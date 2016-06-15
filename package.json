@@ -42,7 +42,7 @@
   "homepage": "https://github.com/brandonhorst/lacona-spotify#readme",
   "dependencies": {
     "elliptical": "^1.0.0-rc15",
-    "lacona-api": "^0.5.1",
+    "lacona-api": "^0.6.0",
     "lacona-phrases": "^0.7.0"
   },
   "author": "Brandon Horst <brandonhorst@gmail.com> (https://github.com/brandonhorst)"
