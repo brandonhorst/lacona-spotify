@@ -14,8 +14,7 @@
     "prepublish": "npm run clean && npm run build"
   },
   "keywords": [
-    "lacona",
-    "lacona-addon"
+    "lacona"
   ],
   "license": "MIT",
   "repository": {
